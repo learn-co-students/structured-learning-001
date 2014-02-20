@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 describe "In a typical project" do
   describe "the tests" do
     it "would require a spec_helper in each test file to load other dependencies" do

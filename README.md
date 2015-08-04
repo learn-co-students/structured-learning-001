@@ -24,7 +24,7 @@ To pass the tests, make an `environment.rb` file and have it require the code in
 
 ### `bin/`
 
-The `bin/` directory holds files that work to execute your code. Where you code is defined should always be separate from where it's executed.
+The `bin/` directory holds files that work to execute your code. Where your code is defined should always be separate from where it's executed.
 
 Create a file called `run.rb` which runs the `Foo` class. Be sure that it requires `environment.rb`, so that it knows about `Foo` and `Bar`.
 
@@ -47,5 +47,5 @@ Running `bundle init` creates a new Gemfile and running `bundle install` creates
 Get the tests to pass!
 
 ## Resources
-* [Lean Ruby the Hard Way](http://ruby.learncodethehardway.org/) - [Exercise 46: A Project Skeleton](http://ruby.learncodethehardway.org/book/ex46.html)
+* [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/) - [Exercise 46: A Project Skeleton](http://ruby.learncodethehardway.org/book/ex46.html)
 * [RubyGems](http://guides.rubygems.org/) - [What is a Gem](http://guides.rubygems.org/what-is-a-gem/)

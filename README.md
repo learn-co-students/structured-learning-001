@@ -24,7 +24,7 @@ To pass the tests, make an `environment.rb` file and have it require the code in
 
 ### `bin/`
 
-The `bin/` directory holds files that work to execute your code. Where you code is defined should always be separate from where it's executed.
+The `bin/` directory holds files that work to execute your code. Where your code is defined should always be separate from where it's executed.
 
 Create a file called `run.rb` which runs the `Foo` class. Be sure that it requires `environment.rb`, so that it knows about `Foo` and `Bar`.
 

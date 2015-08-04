@@ -47,5 +47,5 @@ Running `bundle init` creates a new Gemfile and running `bundle install` creates
 Get the tests to pass!
 
 ## Resources
-* [Lean Ruby the Hard Way](http://ruby.learncodethehardway.org/) - [Exercise 46: A Project Skeleton](http://ruby.learncodethehardway.org/book/ex46.html)
+* [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/) - [Exercise 46: A Project Skeleton](http://ruby.learncodethehardway.org/book/ex46.html)
 * [RubyGems](http://guides.rubygems.org/) - [What is a Gem](http://guides.rubygems.org/what-is-a-gem/)

@@ -1,14 +1,23 @@
-# structured-learning
+# Code Along: Structuring a Ruby Application
 
-This lab guides you through setting up a conventional looking Ruby application with multiple directories. 
+## Objectives
+
+1. Understand the file structure of a typical Ruby application.
+2. Create the folders and files of a typical Ruby applicatoin. 
 
 ## A Typical Ruby Application
+
+In the sections below, read the info under each heading to learn about that particular aspect of the file structure. Follow the instructions in each section to set up your project and get the tests passing. 
+
+A typical Ruby app has the following file structure: 
 
 ### `lib/`
 
 The `lib/` directory should be where all of your application's code lives: methods, classes, etc.
 
 We have two simple classes in the files `bar.rb` and `foo.rb`. They should live in `lib/`.
+
+**Make a directory in the top level of this application called `lib`. Move both `foo.rb` and `bar.rb` into the `lib` directory.**
 
 ### `config/`
 
@@ -20,19 +29,18 @@ Think of `environment.rb` as a manifest for all of your files. It should require
 
 Below we'll talk about what should be requiring `environment.rb`.
 
-To pass the tests, make an `environment.rb` file and have it require the code in `lib/`.
+**To pass the tests, make an `environment.rb` file and have it require the code in `lib/`.**
 
 ### `bin/`
 
 The `bin/` directory holds files that work to execute your code. Where your code is defined should always be separate from where it's executed.
 
-Create a file called `run.rb` which runs the `Foo` class. Be sure that it requires `environment.rb`, so that it knows about `Foo` and `Bar`.
+**Create a file called `run.rb` which runs the `Foo` class. Be sure that it requires `environment.rb`, so that it knows about `Foo` and `Bar`.**
 
 ### `spec/`
 
 You should already be familiar with what's going on in `spec/`, but let's dive in to what's happening within this folder a bit more. File(s) that hold tests end in "_spec" (like `file_structure_spec.rb`). Note that this is requiring a file called `spec_helper.rb`, which does two things: holds configuration settings that apply to any spec file that requires it, and requires `environment.rb`, so it knows about the code that its testing.
 
-Get the tests to pass!
 
 ### `.rspec`
 

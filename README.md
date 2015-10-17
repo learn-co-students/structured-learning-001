@@ -29,13 +29,13 @@ Think of `environment.rb` as a manifest for all of your files. It should require
 
 Below we'll talk about what should be requiring `environment.rb`.
 
-**To pass the tests, make an `environment.rb` file and have it require the code in `lib/`.**
+**Make a directory in the top level of this application called `config`.To pass the tests, make an `environment.rb` file and have it require the code in `lib/`.**
 
 ### `bin/`
 
 The `bin/` directory holds files that work to execute your code. Where your code is defined should always be separate from where it's executed.
 
-**Create a file called `run.rb` which runs the `Foo` class. Be sure that it requires `environment.rb`, so that it knows about `Foo` and `Bar`.**
+**Make a directory in the top level of this application called `bin`.Create a file called `run.rb` which runs the `Foo` class. Be sure that it requires `environment.rb`, so that it knows about `Foo` and `Bar`.**
 
 ### `spec/`
 

@@ -1,3 +1,4 @@
+
 class Foo
   def self.run
     bar = Bar.new

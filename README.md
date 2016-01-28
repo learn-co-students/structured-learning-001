@@ -58,4 +58,4 @@ Get the tests to pass!
 * [Learn Ruby the Hard Way](http://ruby.learncodethehardway.org/) - [Exercise 46: A Project Skeleton](http://ruby.learncodethehardway.org/book/ex46.html)
 * [RubyGems](http://guides.rubygems.org/) - [What is a Gem](http://guides.rubygems.org/what-is-a-gem/)
 
-<a href='https://learn.co/lessons/structured-learning' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/structured-learning' title='Code Along: Structuring a Ruby Application'>Code Along: Structuring a Ruby Application</a> on Learn.co and start learning to code for free.</p>

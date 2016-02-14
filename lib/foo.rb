@@ -3,4 +3,8 @@ class Foo
     bar = Bar.new
     bar.baz
   end
+
+  def self.do_something
+
+  end
 end
